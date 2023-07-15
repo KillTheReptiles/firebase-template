@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "hotel-sys-14796",
+  "private_key_id": "fc49be87583649f1f0c2c83b1ec13ccf0ed5eef6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCU/Gy1bjjkHgsj\nsc/qpP3Ehu8RUtiMGqxtIB/4oy468eTGDvDBzXYXiUN+bfIZnQ84AvKx7CYqBCsC\noGgllKWLUd82VzRNyMezAiyqPllknR74+p2UVN8NjHm9QcWYrbxeTTZfXoPUaT7e\nNQRvLHKfq2OmIslEMz8fKaNvdDcnLeqHvdE0HtpCN0z52A9keiQ51jvCk3h3bcfQ\nEE0KN5+BlAd/czSvVSUDO/ljfsGITYbNMPBvZSUIJVb1lQoorIEt5akVQuuMWXJI\nXxxgtc4grZPsp0hBfP7NSQCLoI4lEoYsuQzqidY1kGMGgRlRuCrOeLhkYFcrfpmj\nJlbKAiR/AgMBAAECggEARGHiAZpwOWACy+Ti4jfNlGU8mK52X0Qk7UeH9Sbs4rhB\nQZj8728/K0lg9chADXqV0CcmPvz9fV6BYUi/1LP4EczHz5jSFHu6EVNHrfJFNJWb\ncDsTldAouv7Fp9Tm/Y+MvJnjAX4PszCFXxdljCOSDvBrIgeoaom9CLAjaFYmtG++\n2xO19eXrt32Fl/LUdc8X/VBv5LQDnpAHPlDYEyqTO5kfcSD7pflNScQ8r3Vu3oh6\noNep2JJCsqDw1U8qyiMOBmn9/YU3FhUJvAjwOV0JDdzGW6J7op/2GUGDLByxbuEe\nuMB20D7BDF7rMQsStRFXR7JOWl3Wu1aGMaDRQOj/XQKBgQDL2Y99mJxqkPjfxJAM\ngu7uvKDMSxaAb8f+Tc6zMsDqg7BNMjVRiv0LmJLFtd0KQam+rRfV+k1GoVbpWZ8Y\nFvDFZPGWUvm3abA5N4ZuxInvkYvu5ml2q7fiEw5UpwFP0KL+BKfjX5v6WXcd3GZ+\n0GjIIhifP4sI5IyRTOPnEuDvDQKBgQC7Gb+yxVo14IaxWQE3q6NJbymsEZ0yA/cu\n5Uvh7xmvEjwxqvXBEydCcw1VIIkAvjsGUCeDp1WEOa2jNeCXhxtv290UJ5A5DDR8\nabqCsGT0SHQFJZ78KGrzOnon925vddbDaXSzU2s5dh4iJfpz9+hgLNlfVBcjTDCi\nsMbtxnAeuwKBgH6ZPfkVV0cDg9yMmZ17j2Hq+b4GgBIB2eXAcrdttMuwP0SiAuUC\neYbDGZv6By3Ae+f0XdJBIc7UkkJXq2tti9g7iaH/JCDZXV0bc7zFCJkk/g+/Pw45\nNPkNNqAyG6ly/Fbfk1itXxRKjaSY5XqqefiY3EvCTdmW/wmaBAvU+KbdAoGAGbvi\n5/3I+JwXKpFpX3TWEqWdf7M0gcqV1vdmxn6Sc8f4S4SOJK4zuioE7W56KYYArE+d\n/7emRXeBcG9aorzMg0gkUj9W0OHi3jHUm2EToZ3Nh1+zTE9q1mV2o8SeheoZTetV\nR8zzdIXQgzXiCs1QQtooU7pHLG2wStAxrEac6T0CgYBORYUvQTXBYLLrQJGiEuRM\n1QqR/zEfagdRndJ5PYBce8VQxTPzhatEabIwL6fE4Ua7GjqSuCtgJDs2kb3FK2f8\nQtAH69fYuuydLAp5RnWapLmyOd/t600yzlR+EG3yLCj4jKJwiHtkl4CpGaSl7cUY\n4aWEZjRlYgvFRKyZE/RhiA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-nbrfu@hotel-sys-14796.iam.gserviceaccount.com",
+  "client_id": "109425791693623326943",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-nbrfu%40hotel-sys-14796.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
