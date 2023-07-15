@@ -1,5 +1,4 @@
 import { db } from '../config/database/config';
-import * as admin from 'firebase-admin';
 
 export const getDocuments = async (collection: string) => {
   const querySnapshot = await db.collection(collection).get();
@@ -27,25 +26,23 @@ export const getDocumentsWhere = async (
 };
 
 export const createDocument = async (collection: string, data: any, documentId?: string) => {
-  // The field createdAt and updatedAt are added with the server timestamp
-
   if (documentId) {
     await db
       .collection(collection)
       .doc(documentId)
-      .set({ ...data, updatedAt: new Date(), createdAt: new Date() });
+      .set({ ...data, updatedAt: new Date(), createdAt: new Date() }); // The field createdAt and updatedAt are added with the server timestamp
+
     return documentId;
   } else {
-    const docRef = await db.collection(collection).add({ ...data, updatedAt: new Date(), createdAt: new Date() });
+    const docRef = await db.collection(collection).add({ ...data, updatedAt: new Date(), createdAt: new Date() }); // The field createdAt and updatedAt are added with the server timestamp
     return docRef.id;
   }
 };
 
 export const updateDocument = async (collection: string, documentId: string, data: any) => {
   // The field updatedAt is added with the server timestamp
-  data.updatedAt = admin.firestore.FieldValue.serverTimestamp();
   const docRef = db.collection(collection).doc(documentId);
-  await docRef.update(data);
+  await docRef.update({ ...data, updatedAt: new Date() });
 };
 
 export const deleteDocument = async (collection: string, documentId: string) => {
